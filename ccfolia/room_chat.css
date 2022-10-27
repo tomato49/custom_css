@@ -1,0 +1,22 @@
+/* 
+ルームチャットの発言者名と発言の表示
+発言者の画像はなし
+
+target: ccfolia v1.23.1
+OBSのブラウザソースに以下のURLを入れてください。
+{ルームID}は各自、該当のルームのIDに置換すること。
+URL: https://ccfolia.com/rooms/{ルームID}/chat
+author: 🍅
+*/
+
+body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; visibility: hidden; }
+
+/* ルームチャットの発言者名＋発言の表示 */
+.MuiListItemText-multiline {
+    visibility: visible;
+}
+
+/* 発言者画像＋発言者名＋発言の表示 */
+/* .MuiListItem-gutters {
+    visibility: visible;
+} */
