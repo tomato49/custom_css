@@ -6,7 +6,7 @@ OBSのブラウザソースに以下のURLを入れてください。
 {ルームID}は各自、該当のルームのIDに置換すること。
 {キャラクターID}は各自、該当のキャラクターのIDに置換すること。（キャラクター右クリックで出る）
 URL: https://ccfolia.com/rooms/{ルームID}/characters/{キャラクターID}
-author: 🍅
+author: トマト
 */
 
 body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
