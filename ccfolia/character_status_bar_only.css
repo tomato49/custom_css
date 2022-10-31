@@ -1,0 +1,31 @@
+/* 
+指定キャラクターのステータスを表示
+
+target: ccfolia v1.23.2
+OBSのブラウザソースに以下のURLを入れてください。
+{ルームID}は各自、該当のルームのIDに置換すること。
+{キャラクターID}は各自、該当のキャラクターのIDに置換すること。（キャラクター右クリックで出る）
+URL: https://ccfolia.com/rooms/{ルームID}/characters/{キャラクターID}
+author: 🍅
+*/
+
+body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
+
+/* ステータス幅変更 */
+.hbqEoM {
+    width: 300px;
+}
+/* キャラ画像非表示 */
+.iVuJpb {
+    display: none;
+}
+/* 文字サイズ変更 */
+.MuiTypography-body2 {
+    font-size: 2rem;
+}
+/* 背景色高さ変更 */
+.cKkBXQ,
+.eTSzbd,
+.gfa-DQG {
+    height: 32px;
+}
