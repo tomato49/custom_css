@@ -35,3 +35,93 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; v
         opacity: 0;
     }
 }
+
+
+
+/*
+target: ccfolia v1.23.1
+OBSのブラウザソースに以下のURLを入れてください。
+{ルームID}は各自、該当のルームのIDに置換すること。
+URL: https://ccfolia.com/rooms/{ルームID}/chat
+author: 🍅
+一旦一体型にする。
+*/
+
+:root {
+    --background-color: rgba(0, 0, 0, 0.8);
+    --background-padding: 16px;
+    --border-color: rgba(0, 0, 0, 0.8);
+    --border-image: url();
+    --border-width: 2px;
+    --border-radius: 20px;
+    --border-shadow: 0;
+    --font-color: rgb(255, 255, 255);
+    --font-color-shadow: 0;
+    --font-color-fail: rgb(245, 0, 87);
+    --font-color-fail-shadow: 0;
+    --font-color-success: rgb(33, 150, 243);
+    --font-color-success-shadow: 0;
+    --font-size: 1.1rem;
+    --font-shadow: 0;
+    --image-radius: 0%;
+    --width: 500px;
+    --line-clamp: 30;
+}
+
+
+.MuiListItemText-multiline {
+    padding: var(--background-padding);
+    margin: -16px;
+    background: var(--background-color);
+    border: solid var(--border-width) var(--border-color);
+    border-radius: var(--border-radius);
+    border-image: var(--border-image);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    box-shadow: var(--border-shadow);
+    align-items: center;
+}
+.MuiTypography-subtitle2,
+.MuiTypography-body2 {
+    font-size: var(--font-size)
+}
+
+p.MuiTypography-root,
+.MuiTypography-colorTextSecondary {
+    color: var(--font-color);
+    text-shadow: var(--font-color-shadow);
+}
+
+p.MuiTypography-root {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: var(--line-clamp);
+}
+
+.MuiTypography-colorPrimary {
+    color: var(--font-color-success);
+    text-shadow: var(--font-color-success-shadow);
+}
+
+.MuiTypography-colorSecondary {
+    color: var(--font-color-fail);
+    text-shadow: var(--font-color-fail-shadow);
+}
+
+.MuiListItemText-primary,
+.MuiTypography-caption {
+    color: var(--font-color);
+    text-shadow: var(--font-color-shadow);
+}
+
+/* 下からの位置調整 */
+.flHLrh {
+    padding-bottom: 100px;
+}
+
+/* 送信フォーム非表示 */
+.jaRgTS {
+    display: none;
+}
