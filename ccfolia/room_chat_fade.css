@@ -1,7 +1,17 @@
-.flHLrh .MuiListItemText-root:not(:nth-last-of-type(-n+3)) {
+/*
+target: ccfolia v1.23.1
+OBSのブラウザソースに以下のURLを入れてください。
+{ルームID}は各自、該当のルームのIDに置換すること。
+URL: https://ccfolia.com/rooms/{ルームID}/chat
+author: 🍅
+*/
+
+body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; visibility: hidden; }
+
+.flHLrh .MuiListItemText-multiline:not(:nth-last-of-type(-n+4)) {
   display: none;
 }
-.flHLrh .MuiListItemText-root:nth-last-of-type(-n+3) {
+.flHLrh .MuiListItemText-multiline:nth-last-of-type(-n+4) {
     visibility: visible;
     animation:
         fadeIn  2s ease 0s,
