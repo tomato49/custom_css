@@ -9,7 +9,7 @@ author: 🍅
 
 :root {
     --background-color: rgba(0, 0, 0, 0.8);
-    --background-padding: 16px;
+    --background-padding: 8px;
     --border-color: rgba(0, 0, 0, 0.8);
     --border-image: url();
     --border-width: 2px;
@@ -31,7 +31,6 @@ author: 🍅
 
 .MuiListItemText-multiline {
     padding: var(--background-padding);
-    margin: -16px;
     background: var(--background-color);
     border: solid var(--border-width) var(--border-color);
     border-radius: var(--border-radius);
