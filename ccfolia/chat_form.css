@@ -5,6 +5,7 @@ OBSのブラウザソースに以下のURLを入れてください。
 {ルームID}は各自、該当のルームのIDに置換すること。
 URL: https://ccfolia.com/rooms/{ルームID}/chat
 author: 🍅
+なぜかimportするとpadding周りがうまくいかない
 */
 
 :root {
@@ -21,7 +22,7 @@ author: 🍅
     --font-color-fail-shadow: 0;
     --font-color-success: rgb(33, 150, 243);
     --font-color-success-shadow: 0;
-    --font-size: 16px;
+    --font-size: 1.1rem;
     --font-shadow: 0;
     --image-radius: 0%;
     --width: 500px;
