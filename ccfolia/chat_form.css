@@ -1,4 +1,3 @@
-
 /*
 target: ccfolia v1.23.1
 OBSのブラウザソースに以下のURLを入れてください。
@@ -79,7 +78,7 @@ p.MuiTypography-root {
 
 /* 下からの位置調整 */
 .flHLrh {
-    padding-bottom: 100px;
+    padding-bottom: 80px;
 }
 
 /* 背景適応したpadding分フォームとの重なりを調整 */
