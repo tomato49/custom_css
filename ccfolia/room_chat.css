@@ -42,14 +42,13 @@ OBSのブラウザソースに以下のURLを入れてください。
 {ルームID}は各自、該当のルームのIDに置換すること。
 URL: https://ccfolia.com/rooms/{ルームID}/chat
 author: 🍅
-ログの背景
+なぜかimportするとpadding周りがうまくいかない
 */
 
 :root {
     --background-color: rgba(0, 0, 0, 0.8);
     --background-padding: 8px;
-    --background-margin: 16px;
-    --border-color: rgba(0, 0, 0, 0.8);
+    --border-color: rgba(255, 255, 255, 0.85);
     --border-image: url();
     --border-width: 2px;
     --border-radius: 20px;
@@ -65,16 +64,12 @@ author: 🍅
     --image-radius: 0%;
     --width: 500px;
     --line-clamp: 30;
+    --chat-div-padding-bottom: 4rem;
 }
 
-.MuiListItem-gutters {
-    margin: 16px 0;
-}
 
 .MuiListItemText-multiline {
     padding: var(--background-padding);
-    margin-bottom: var(--background-margin);
-    margin-top: var(--background-margin);
     background: var(--background-color);
     border: solid var(--border-width) var(--border-color);
     border-radius: var(--border-radius);
@@ -126,8 +121,8 @@ p.MuiTypography-root {
 
 /* 背景適応したpadding分フォームとの重なりを調整 */
 .flHLrh>div>div {
-    scroll-padding-bottom: 3rem;
-    padding-bottom: 3rem;
+    scroll-padding-bottom: var(--chat-div-padding-bottom);
+    padding-bottom: var(--chat-div-padding-bottom);
 }
 
 /* 送信フォーム非表示 */

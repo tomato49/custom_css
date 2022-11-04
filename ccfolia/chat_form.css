@@ -11,7 +11,7 @@ author: 🍅
 :root {
     --background-color: rgba(0, 0, 0, 0.8);
     --background-padding: 8px;
-    --border-color: rgba(0, 0, 0, 0.8);
+    --border-color: rgba(255, 255, 255, 0.85);
     --border-image: url();
     --border-width: 2px;
     --border-radius: 20px;
@@ -27,6 +27,7 @@ author: 🍅
     --image-radius: 0%;
     --width: 500px;
     --line-clamp: 30;
+    --chat-div-padding-bottom: 4rem;
 }
 
 
@@ -79,6 +80,12 @@ p.MuiTypography-root {
 /* 下からの位置調整 */
 .flHLrh {
     padding-bottom: 100px;
+}
+
+/* 背景適応したpadding分フォームとの重なりを調整 */
+.flHLrh>div>div {
+    scroll-padding-bottom: var(--chat-div-padding-bottom);
+    padding-bottom: var(--chat-div-padding-bottom);
 }
 
 /* 送信フォーム非表示 */
