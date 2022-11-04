@@ -8,9 +8,6 @@ author: 🍅
 
 body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; visibility: hidden; }
 
-.flHLrh .MuiListItemText-multiline:not(:nth-last-of-type(-n+4)) {
-  visibility: collapse;
-}
 .flHLrh .MuiListItemText-multiline:nth-last-of-type(-n+4) {
     visibility: visible;
     animation:
@@ -116,7 +113,7 @@ p.MuiTypography-root {
 
 /* 下からの位置調整 */
 .flHLrh {
-    padding-bottom: 100px;
+    padding-bottom: 80px;
 }
 
 /* 背景適応したpadding分フォームとの重なりを調整 */
