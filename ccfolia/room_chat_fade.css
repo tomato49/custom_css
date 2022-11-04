@@ -8,9 +8,6 @@ author: 🍅
 
 body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; visibility: hidden; }
 
-.flHLrh .MuiListItemText-multiline:not(:nth-last-of-type(-n+4)) {
-  display: none;
-}
 .flHLrh .MuiListItemText-multiline:nth-last-of-type(-n+4) {
     visibility: visible;
     animation:
