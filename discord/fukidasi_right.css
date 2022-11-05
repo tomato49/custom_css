@@ -4,11 +4,12 @@
 （立ち絵）<。。。
 OBSのブラウザソースにdiscord streamkit overlayのURLを入れてください。
 色はOBSのフィルタの色補正で変更してください。
+あとこれは完全にコピペでOBSに貼り付けること。importでは動かない。
 author: 🍅
 */
 
 /* 選択したユーザ以外の画像を非表示にする */
-/* .voice-state:not([data-reactid*="{discordUserId}"]) { display:none; } */
+.voice-state:not([data-reactid*="{discordUserId}"]) { display:none; }
 
 /* アイコンを立ち絵画像に差し替える */
 .avatar {
