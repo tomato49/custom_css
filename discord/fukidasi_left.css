@@ -1,0 +1,34 @@
+/* 
+ふきだし表示
+以下の向き
+。。。>（立ち絵）
+OBSのブラウザソースにdiscord streamkit overlayのURLを入れてください。
+色はOBSのフィルタの色補正で変更してください。
+author: 🍅
+*/
+
+/* 選択したユーザ以外の画像を非表示にする */
+.voice-state:not([data-reactid*="{discordUserId}"]) { display:none; }
+
+/* アイコンを立ち絵画像に差し替える */
+.avatar {
+  content:url("https://cdn.discordapp.com/attachments/1012130141738119219/1012759232216580116/retalk-red.gif");
+  height:auto !important;
+  width:auto !important;
+  border-radius:0 !important;
+  opacity:0;
+}
+
+/* 発話状態の設定 */
+.speaking {
+  border-color:rgba(0,0,0,0) !important;
+  opacity:1;
+}
+
+
+/* ネームタグ表示位置調整 */
+.voice-state{ position: static; text-align: center;}
+.user{ display: none; }
+
+/* 色々消すヤツ */
+body { background-color: rgba(0, 0, 0, 0); overflow: hidden; }
