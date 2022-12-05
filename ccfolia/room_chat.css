@@ -122,7 +122,8 @@ p.MuiTypography-root {
     padding-bottom: var(--chat-div-padding-bottom);
 }
 
-/* 送信フォーム非表示 */
+/* 送信フォーム表示 */
+/* タブ表示できるので、ここを切り替えれば情報や雑談に変更可 */
 .jaRgTS {
-    display: none;
+    visibility: visible;
 }
