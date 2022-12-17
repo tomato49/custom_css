@@ -9,27 +9,38 @@ author: 🍅
 */
 
 /* 選択したユーザ以外の画像を非表示にする */
-.voice-state:not([data-reactid*="{discordUserId}"]) { display:none; }
+img.Voice_avatar__htiqH:not([src*="{discordのUserID}"])
+{
+  display: none;
+}
+/* CSS4が効くならこっちのがシンプル */
+/* .Voice_voiceState__OCoZh:has(.Voice_avatar__htiqH:not([src*="{discordのUserID}"]))
+{ display:none; } */
 
-/* アイコンを立ち絵画像に差し替える */
-.avatar {
-  content:url("https://cdn.discordapp.com/attachments/1012130141738119219/1012759232216580116/retalk-red.gif");
+
+/* アイコンを立ち絵画像に差し替える、アイコン位置調整 */
+img.Voice_avatar__htiqH {
+  content:url("https://cdn.discordapp.com/attachments/1043465445337989221/1043873383567327232/move-L-U.png");
   height:auto !important;
   width:auto !important;
   border-radius:0 !important;
   opacity:0;
+  /* CSS4なら以降は不要ここから */
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* CSS4なら以降は不要ここまで */
 }
 
 /* 発話状態の設定 */
-.speaking {
+img.Voice_avatar__htiqH.Voice_avatarSpeaking__lE\+4m {
   border-color:rgba(0,0,0,0) !important;
   opacity:1;
 }
 
 
-/* ネームタグ表示位置調整 */
-.voice-state{ position: static; text-align: center;}
-.user{ display: none; }
+/* ネームタグ削除 */
+.Voice_user__8fGwX{ display: none; }
 
 /* 色々消すヤツ */
 body { background-color: rgba(0, 0, 0, 0); overflow: hidden; }
