@@ -1,0 +1,52 @@
+/* 
+指定キャラクターのステータスを表示（イニシアチブあり）
+
+target: ccfolia v1.23.2
+OBSのブラウザソースに以下のURLを入れてください。
+{ルームID}は各自、該当のルームのIDに置換すること。
+{キャラクターID}は各自、該当のキャラクターのIDに置換すること。（キャラクター右クリックで出る）
+URL: https://ccfolia.com/rooms/{ルームID}/characters/{キャラクターID}
+幅：280
+高さ：120（一列辺り40くらい）
+author: 🍅
+*/
+
+body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
+
+/* ステータス幅変更 */
+.hbqEoM {
+    width: 300px;
+}
+/* キャラ画像非表示 */
+.iVuJpb {
+    visibility: hidden;
+    top: 10px;
+}
+
+/* イニシアチブ値表示、調整 */
+.MuiBadge-badge {
+    visibility: visible;
+    height: 2.5rem;
+    min-width: 2.5rem;
+    top: 10px;
+    border: solid 4px rgba(0,0,0,0.7);
+    border-radius: 2.5rem;
+}
+
+/* 文字サイズ変更 */
+.MuiBadge-badge,
+.MuiTypography-body2 {
+    font-size: 2rem;
+}
+
+/* HPなどの文字位置調整 */
+.sc-jfdOKL {
+    margin-left: 0.75rem;
+}
+
+/* 背景色高さ変更 */
+.cKkBXQ,
+.eTSzbd,
+.gfa-DQG {
+    height: 32px;
+}
