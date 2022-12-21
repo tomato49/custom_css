@@ -1,0 +1,53 @@
+/* 
+キャラ立ち絵にdiscord streamkit overlayを効かせる場合
+1：明度
+2：跳ねる
+OBSのブラウザソースにdiscord streamkit overlayのURLを入れてください。
+幅はキャラ立ち絵のサイズに合わせてください。
+高さはキャラ立ち絵のサイズ＋10にしてください。
+あとこれは完全にコピペでOBSに貼り付けること。importでは動かない。
+author: 🍅
+*/
+
+/* 選択したユーザ以外の画像を非表示にする */
+img.Voice_avatar__htiqH:not([src*="{discordのUserID}"])
+{
+  display: none;
+}
+
+/* アイコンを立ち絵画像に差し替える、アイコン位置調整 */
+img.Voice_avatar__htiqH {
+  content:url("{キャラ立ち絵のリンク}");
+  height:auto !important;
+  width:auto !important;
+  border-radius:0 !important;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  /* 1：明度 */
+  filter: brightness(0.5);
+}
+
+/* 発話状態の設定 */
+img.Voice_avatar__htiqH.Voice_avatarSpeaking__lE\+4m {
+  border-color:rgba(0,0,0,0) !important;
+  /* 1：明度 */
+  filter: brightness(1);
+  /* 2：跳ねさせたいなら以下有効にしてください */
+  /* animation-name: speak-now;
+  animation-duration: 300ms;
+  animation-fill-mode:forwards; */
+}
+
+/* アニメーション */
+@keyframes speak-now {
+  0% { top:10px; }
+  50% { top:0px; }
+  100% { top:10px; }
+}
+
+/* ネームタグ削除 */
+.Voice_user__8fGwX{ display: none; }
+
+/* 色々消すヤツ */
+body { background-color: rgba(0, 0, 0, 0); overflow: hidden; }
