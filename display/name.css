@@ -1,0 +1,19 @@
+/* 
+共鳴感情アイコン縦並べ
+
+コピペで使うこと。
+OBSのブラウザソースに以下のURLを入れてください。
+URL: https://tomato49.github.io/custom_css/display/name
+author: 🍅
+*/
+
+/* PC名 */
+#chara::before {
+    content: "{PC名}";
+}
+/* PL名 */
+#player::before {
+    content: "{PL名}";
+}
+
+body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
