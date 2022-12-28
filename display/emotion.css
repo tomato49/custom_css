@@ -1,0 +1,23 @@
+/* 
+共鳴感情アイコン縦並べ
+
+コピペで使うこと。
+OBSのブラウザソースに以下のURLを入れてください。
+URL: https://tomato49.github.io/custom_css/display/emotion
+author: 🍅
+*/
+
+/* 一番上に表示（表） */
+#front {
+    content: url("{共鳴感情の画像リンク}");
+}
+/* 中間に表示（裏） */
+#back {
+    content: url("{共鳴感情の画像リンク}");
+}
+/* 一番下に表示（ルーツ） */
+#roots {
+    content: url("{共鳴感情の画像リンク}");
+}
+
+body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
