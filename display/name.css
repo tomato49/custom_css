@@ -9,14 +9,22 @@ author: 🍅
 
 /* PC名 */
 #chara::before {
-    content: "{PC名}";
-}
-/* PL名 */
-#player::after {
-    content: "{PL名}";
-    font-size: 6rem;
-    position: absolute;
-    margin-top: 2rem;
+    content: "PC名";
 }
 
-body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
+/* PL名 */
+#player::after {
+    content: "PL名";
+    font-size: 7.5rem;
+    position: absolute;
+    margin-top: 0.25rem;
+}
+
+body {
+    background-color:
+    rgba(0, 0, 0, 0.8);
+    margin: 0px auto;
+    overflow: hidden;
+    /* 文字色はここで変更 */
+    color: rgba(240, 240, 240, 1);
+}
