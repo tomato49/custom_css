@@ -14,6 +14,9 @@ author: 🍅
 /* PL名 */
 #player::before {
     content: "{PL名}";
+    font-size: 6rem;
+    position: absolute;
+    margin-top: 2rem;
 }
 
 body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
