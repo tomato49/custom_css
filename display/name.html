@@ -3,16 +3,28 @@
 <head>
     <meta charset="utf-8">
     <title>名前</title>
+    <link
+        href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet"
+    />
 </head>
 <body>
     <div>
         <p id="chara">PC:オーウェン＝サジタリウス</p>
-        <p id="player">PL:🍅</p>
+        <p id="player">
+            <span class="material-symbols-rounded">
+                keyboard_voice
+            </span>:🍅
+        </p>
     </div>
 </body>
 <style>
+    p {
+        margin: 8px;
+    }
     #chara {
         font-weight: bold;
+        font-size: 1.2rem;
     }
     #player {
         font-size: 0.875rem;
