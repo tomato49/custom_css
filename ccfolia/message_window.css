@@ -38,8 +38,23 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; v
 /* .cpRwfx {
     display: none;
 } */
+/* ダイスをウィンドウ下部に表示 */
+.cpRwfx { bottom: 0; }
 
+/* ダイスのサイズ変更 */
 .sc-cHPgQl {
     width: 50px;
     height: 50px;
 }
+
+/* キャラを表示、サイズ変更 */
+.hrRhBl {
+    width: 180px;
+    visibility: visible;
+}
+
+/* フォントサイズ変更 */
+/* 発言者 */
+.sc-hjQCSK * { font-size: 1.125rem; }
+/* 発言内容 */
+.hUiEzw * { font-size: 1.25rem; }
