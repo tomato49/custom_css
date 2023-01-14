@@ -16,7 +16,6 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; v
     visibility: visible;
     /* 背景を透過 */
     /* background-color: transparent; */
-
 }
 
 /* メッセージウィンドウの影を消す */
@@ -49,8 +48,19 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; v
 
 /* キャラを表示、サイズ変更 */
 .hrRhBl {
-    width: 180px;
     visibility: visible;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 5px;
+    border-radius: 50%;
+    background: rgba(256, 256, 256, 0.5);
+    border: solid 6px rgba(0, 0, 0, 0.8);
+    object-fit: cover;
+    object-position: top;
+}
+
+.hrRhBl[src=""] {
+    visibility: hidden;
 }
 
 /* フォントサイズ変更 */
@@ -58,3 +68,4 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; v
 .sc-hjQCSK * { font-size: 1.125rem; }
 /* 発言内容 */
 .hUiEzw * { font-size: 1.25rem; }
+.hUiEzw { height: 120px; }
