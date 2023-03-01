@@ -77,12 +77,12 @@ p.MuiTypography-root {
 }
 
 /* 下からの位置調整 */
-.flHLrh {
+.iENqEX {
     padding-bottom: 80px;
 }
 
 /* 背景適応したpadding分フォームとの重なりを調整 */
-.flHLrh>div>div {
+.iENqEX>div>div {
     scroll-padding-bottom: var(--chat-div-padding-bottom);
     padding-bottom: var(--chat-div-padding-bottom);
 }
