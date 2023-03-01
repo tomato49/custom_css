@@ -12,7 +12,7 @@ author: 🍅
 body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; visibility: hidden; }
 
 /* メッセージウィンドウの表示 */
-.hHFdDk {
+.gVOVSn {
     visibility: visible;
     /* 背景を透過 */
     /* background-color: transparent; */
@@ -38,16 +38,16 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; v
     display: none;
 } */
 /* ダイスをウィンドウ下部に表示 */
-.cpRwfx { bottom: 0; }
+.eWmzSm { bottom: 0; }
 
 /* ダイスのサイズ変更 */
-.sc-cHPgQl {
+.sc-bGWzfD {
     width: 50px;
     height: 50px;
 }
 
 /* キャラを表示、サイズ変更 */
-.hrRhBl {
+.cWXgQm {
     visibility: visible;
     width: 120px;
     height: 120px;
@@ -59,13 +59,13 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; v
     object-position: top;
 }
 
-.hrRhBl[src=""] {
+.cWXgQm[src=""] {
     visibility: hidden;
 }
 
 /* フォントサイズ変更 */
 /* 発言者 */
-.sc-hjQCSK * { font-size: 1.125rem; }
+.sc-IIEeM * { font-size: 1.125rem; }
 /* 発言内容 */
-.hUiEzw * { font-size: 1.25rem; }
-.hUiEzw { height: 120px; }
+.haOMrf * { font-size: 1.25rem; }
+.haOMrf { height: 120px; }

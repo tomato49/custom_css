@@ -14,20 +14,20 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 
 /* 以下の要素を非表示 */
 /* ヘッダー */
-.sc-dwLEzm,
+.sc-jTYCaT,
 /* 音量 */
-.sc-ikjQzJ,
+.sc-gUAEMC,
 /* 拡大縮小 */
-.sc-hZgfyJ,
+.sc-itUGML,
 /* ペンのアイコン */
-.sc-dSuTWQ,
+.sc-kItwNn,
 /* メッセージウィンドウ */
-.sc-djUGQo,
+.sc-igHpSv,
 /* カットイン */
-/* .sc-gJwTLC, */
+/* .sc-hZgfyJ, */
 /* 立ち絵 */
-/* .sc-jfmDQi, */
+/* .sc-TRNrF, */
 /* キャラステータス */
-.sc-cwpsFg {
+.sc-jmnVvD {
     visibility:hidden !important;
 }
