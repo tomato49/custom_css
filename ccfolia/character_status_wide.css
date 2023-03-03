@@ -2,11 +2,11 @@
 body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 
 /* ステータス幅変更 */
-.eLyOUq {
+.jrZSzN {
     width: 300px;
 }
 /* キャラ画像非表示 */
-.frVicZ {
+.imkMjD {
     visibility: hidden;
     top: 10px;
 }
@@ -28,19 +28,19 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 }
 
 /* 背景色高さ変更 */
-.gENkYS,
-.jNYzOC,
-.fRJTqu {
+.ddpete,
+.fQlHbF,
+.iLZzml {
   height: 48px;
 }
 
 /* ステータスバー表示位置調整 */
-.hlpPbP {
+.jSxGYO {
   position: relative;
   top: 1.8rem;
 }
 
-.sc-kTGBUR {
+.sc-jDDxOa {
   margin-left: 0 !important;
 }
 

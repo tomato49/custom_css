@@ -2,7 +2,7 @@
 背景＋前景＋スクリーンパネル＋マーカーパネル＋立ち絵
 （ルームチャットはOBSの対話で縮小してください）
 
-target: ccfolia v1.23.1
+target: ccfolia v1.24.4
 OBSのブラウザソースに以下のURLを入れてください。
 {ルームID}は各自、該当のルームのIDに置換すること。
 URL: https://ccfolia.com/rooms/{ルームID}
@@ -14,20 +14,20 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 
 /* 以下の要素を非表示 */
 /* ヘッダー */
-.sc-jTYCaT,
+.sc-fvNpTx,
 /* 音量 */
-.sc-gUAEMC,
+.sc-fWjsSh,
 /* 拡大縮小 */
-.sc-itUGML,
+.sc-gVAlfg,
 /* ペンのアイコン */
-.sc-kItwNn,
+.sc-bGWzfD,
 /* メッセージウィンドウ */
-.eWkvOb,
+.ihOmcc,
 /* カットイン */
-/* .sc-hZgfyJ, */
+/* .sc-ehMyHa, */
 /* 立ち絵 */
-/* .sc-TRNrF, */
+/* .sc-ZyCDH, */
 /* キャラステータス */
-.sc-jmnVvD {
+.sc-hKpBwk {
     display: none !important;
 }

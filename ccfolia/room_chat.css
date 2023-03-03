@@ -1,5 +1,5 @@
 /*
-target: ccfolia v1.23.1
+target: ccfolia v1.24.4
 OBSのブラウザソースに以下のURLを入れてください。
 {ルームID}は各自、該当のルームのIDに置換すること。
 URL: https://ccfolia.com/rooms/{ルームID}/chat
@@ -8,7 +8,7 @@ author: 🍅
 
 body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; visibility: hidden; }
 
-.iENqEX .MuiListItemText-multiline:nth-last-of-type(-n+4) {
+.jDXjcQ .MuiListItemText-multiline:nth-last-of-type(-n+4) {
     visibility: visible;
     animation:
         fadeIn  2s ease 0s,
@@ -34,7 +34,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; v
 }
 
 /*
-target: ccfolia v1.23.1
+target: ccfolia v1.24.4
 OBSのブラウザソースに以下のURLを入れてください。
 {ルームID}は各自、該当のルームのIDに置換すること。
 URL: https://ccfolia.com/rooms/{ルームID}/chat
@@ -112,18 +112,18 @@ p.MuiTypography-root {
 }
 
 /* 下からの位置調整 */
-.iENqEX {
+.jDXjcQ {
     padding-bottom: 80px;
 }
 
 /* 背景適応したpadding分フォームとの重なりを調整 */
-.iENqEX>div>div {
+.jDXjcQ>div>div {
     scroll-padding-bottom: var(--chat-div-padding-bottom);
     padding-bottom: var(--chat-div-padding-bottom);
 }
 
 /* 送信フォーム表示 */
 /* タブ表示できるので、OBSの対話でタブを切り替えれば情報や雑談に変更可 */
-.kFaMkk {
+.MuiTabs-root {
     visibility: visible;
 }
