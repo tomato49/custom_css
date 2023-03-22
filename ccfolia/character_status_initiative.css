@@ -14,11 +14,11 @@ author: 🍅
 body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 
 /* ステータス幅変更 */
-.jrZSzN {
+.fheaZC {
     width: 300px;
 }
 /* キャラ画像非表示 */
-.imkMjD {
+.iBOfa {
     visibility: hidden;
     top: 10px;
 }
@@ -40,14 +40,14 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 }
 
 /* 背景色高さ変更 */
-.ddpete,
-.fQlHbF,
-.iLZzml {
+.hVAXWM,
+.fKOXEa,
+.fciSXc {
     height: 32px;
 }
 
 /* ステータスバー表示位置調整 */
-.jSxGYO {
+.eekHMk {
     position: relative;
     top: 1.8rem;
 }

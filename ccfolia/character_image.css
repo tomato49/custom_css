@@ -13,7 +13,7 @@ author: 🍅
 body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; visibility: hidden; }
 
 /* 下のbutton要素を囲ってるdivの幅制御 */
-.XzfSx {
+.kZoYhb {
     /* widthで画像の大きさを制御する。
     解像度をオリジナルに近づけたい場合は、ココを変更。
     OBS側の幅を変更するのも忘れずに。 */
@@ -22,6 +22,6 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; v
 }
 
 /* ステータスのキャラ絵の表示 */
-.koVQuu {
+.jhOLQK {
     visibility: visible;
 }
