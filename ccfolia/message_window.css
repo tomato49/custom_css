@@ -2,7 +2,7 @@
 メッセージウィンドウとダイスを表示
 キャラ絵とアイコンは非表示
 
-target: ccfolia v1.23.2
+target: ccfolia v1.24.9
 OBSのブラウザソースに以下のURLを入れてください。
 {ルームID}は各自、該当のルームのIDに置換すること。
 URL: https://ccfolia.com/rooms/{ルームID}
@@ -12,7 +12,7 @@ author: 🍅
 body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; visibility: hidden; }
 
 /* メッセージウィンドウの表示 */
-.eDwarb {
+.iRDaWA {
     visibility: visible;
     /* 背景を透過 */
     /* background-color: transparent; */
@@ -38,7 +38,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; v
     display: none;
 } */
 /* ダイスをウィンドウ下部に表示 */
-.kprzxS { bottom: 0; }
+.cKbaat { bottom: 0; }
 
 /* ダイスのサイズ変更 */
 .sc-IIEeM {
@@ -47,7 +47,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; v
 }
 
 /* キャラを表示、サイズ変更 */
-.jGzdMe {
+.cITkxb {
     visibility: visible;
     width: 120px;
     height: 120px;
@@ -59,13 +59,13 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; v
     object-position: top;
 }
 
-.jGzdMe[src=""] {
+.cITkxb[src=""] {
     visibility: hidden;
 }
 
 /* フォントサイズ変更 */
 /* 発言者 */
-.sc-hFrEEg * { font-size: 1.125rem; }
+.sc-DdwlG * { font-size: 1.125rem; }
 /* 発言内容 */
-.hpBNwu * { font-size: 1.25rem; }
-.hpBNwu { height: 120px; }
+.bEOMjo * { font-size: 1.25rem; }
+.bEOMjo { height: 120px; }
