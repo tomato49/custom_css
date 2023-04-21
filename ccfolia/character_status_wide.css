@@ -1,3 +1,15 @@
+/* 
+指定キャラクターのステータスを表示（イニシアチブあり+ワイド）
+
+target: ccfolia v1.24.9
+OBSのブラウザソースに以下のURLを入れてください。
+{ルームID}は各自、該当のルームのIDに置換すること。
+{キャラクターID}は各自、該当のキャラクターのIDに置換すること。（キャラクター右クリックで出る）
+URL: https://ccfolia.com/rooms/{ルームID}/characters/{キャラクターID}
+幅：280
+高さ：120（一列辺り40くらい）
+author: 🍅
+*/
 
 body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 
@@ -8,7 +20,6 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 /* キャラ画像非表示 */
 .MuiAvatar-root {
     visibility: hidden;
-    top: 10px;
 }
 
 /* イニシアチブ値表示、調整 */
@@ -16,7 +27,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     visibility: visible;
     height: 2.5rem;
     min-width: 2.5rem;
-    top: 10px;
+    top: 1.1rem !important;
     /* border: solid 4px rgba(0,0,0,0.7); */
     border-radius: 2.5rem;
 }
@@ -34,7 +45,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 }
 
 /* ステータスバー表示位置調整 */
-.eqNpGd {
+.fmDrFr {
   position: relative;
   top: 1.8rem;
 }

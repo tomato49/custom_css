@@ -20,7 +20,6 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 /* キャラ画像非表示 */
 .MuiAvatar-root {
     visibility: hidden;
-    top: 10px;
 }
 
 /* イニシアチブ値表示、調整 */
@@ -28,7 +27,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     visibility: visible;
     height: 2.5rem;
     min-width: 2.5rem;
-    top: 10px;
+    top: 1.1rem !important;
     /* border: solid 4px rgba(0,0,0,0.7); */
     border-radius: 2.5rem;
 }
@@ -46,7 +45,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 }
 
 /* ステータスバー表示位置調整 */
-.eqNpGd {
+.fmDrFr {
     position: relative;
     top: 1.8rem;
 }
