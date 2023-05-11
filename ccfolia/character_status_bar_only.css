@@ -1,7 +1,7 @@
 /* 
 指定キャラクターのステータスを表示
 
-target: ccfolia v1.24.9
+target: ccfolia v1.25.0
 OBSのブラウザソースに以下のURLを入れてください。
 {ルームID}は各自、該当のルームのIDに置換すること。
 {キャラクターID}は各自、該当のキャラクターのIDに置換すること。（キャラクター右クリックで出る）
@@ -12,11 +12,11 @@ author: 🍅
 body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 
 /* ステータス幅変更 */
-.iJGjsB {
+#root>div>div>div>div>div {
     width: 300px;
 }
 /* キャラ画像非表示 */
-.MuiAvatar-root {
+.MuiBadge-root {
     display: none;
 }
 /* 文字サイズ変更 */
@@ -24,8 +24,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     font-size: 2rem;
 }
 /* 背景色高さ変更 */
-.HvPFV,
-.iWWCh,
-.dZilmu {
+#root>div>div>div>div>div>div,
+#root>div>div>div>div>div>div * {
     height: 32px;
 }
