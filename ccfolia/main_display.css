@@ -14,15 +14,17 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 
 /* 以下の要素を非表示 */
 /* ヘッダー */
-.sc-bWXABl,
+header,
 /* 音量 */
-.sc-fmrZth,
+.sc-gkJlnC,
+/* カットイン音表示 */
+.MuiSnackbar-root,
 /* 拡大縮小 */
-.sc-fSUSjI,
+.sc-dwVMhp,
 /* ペンのアイコン */
-.sc-igHpSv,
+.sc-bGWzfD,
 /* メッセージウィンドウ */
-.iRDaWA,
+.MuiPaper-rounded,
 /* キャラステータス */
 .sc-cUEIKg {
     display: none !important;
