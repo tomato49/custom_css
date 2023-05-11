@@ -1,5 +1,5 @@
 /*
-target: ccfolia v1.24.9
+target: ccfolia v1.25.0
 OBSのブラウザソースに以下のURLを入れてください。
 {ルームID}は各自、該当のルームのIDに置換すること。
 URL: https://ccfolia.com/rooms/{ルームID}/chat
@@ -76,13 +76,8 @@ p.MuiTypography-root {
     text-shadow: var(--font-color-shadow);
 }
 
-/* 下からの位置調整 */
-.dRirYN {
-    padding-bottom: var(--chat-div-padding-bottom);
-}
-
 /* 背景適応したpadding分フォームとの重なりを調整 */
-.dRirYN>div>div {
+.MuiList-root>div>div {
     scroll-padding-bottom: var(--chat-div-padding-bottom);
     padding-bottom: var(--chat-div-padding-bottom);
 }

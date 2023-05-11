@@ -1,5 +1,5 @@
 /*
-target: ccfolia v1.24.9
+target: ccfolia v1.25.0
 OBSのブラウザソースに以下のURLを入れてください。
 {ルームID}は各自、該当のルームのIDに置換すること。
 URL: https://ccfolia.com/rooms/{ルームID}/chat
@@ -8,7 +8,7 @@ author: 🍅
 
 body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; visibility: hidden; }
 
-.dRirYN .MuiListItemText-multiline:nth-last-of-type(-n+4) {
+.MuiList-root>div>div>div>div {
     visibility: visible;
     animation:
         fadeIn  2s ease 0s,
