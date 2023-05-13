@@ -114,6 +114,11 @@ p.MuiTypography-root {
     text-shadow: var(--font-color-shadow);
 }
 
+/* 下からの位置調整 */
+.MuiList-root {
+    padding-bottom: 80px;
+}
+
 /* 背景適応したpadding分フォームとの重なりを調整 */
 .MuiList-root>div>div {
     scroll-padding-bottom: var(--chat-div-padding-bottom);
