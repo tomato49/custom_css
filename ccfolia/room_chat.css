@@ -127,5 +127,5 @@ p.MuiTypography-root {
 /* 送信フォーム表示 */
 /* タブ表示できるので、OBSの対話でタブを切り替えれば情報や雑談に変更可 */
 .MuiTabs-root {
-    visibility: hidden;
+    visibility: visible;
 }
