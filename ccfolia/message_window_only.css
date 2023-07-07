@@ -34,14 +34,14 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; v
 }
 
 /* ダイスを消す */
-/* .cpRwfx {
+/* .hzbege {
     display: none;
 } */
 /* ダイスをウィンドウ下部に表示 */
-.dAepyZ { bottom: 0; }
+.hzbege { bottom: 0; }
 
 /* ダイスのサイズ変更 */
-.sc-gDeeJ {
+.sc-oclUV {
     width: 50px;
     height: 50px;
 }
@@ -55,5 +55,5 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; v
 /* 発言者 */
 .MuiToolbar-dense * { font-size: 1.125rem; }
 /* 発言内容 */
-.cJHYcE * { font-size: 1.25rem; }
-.cJHYcE { height: 120px; }
+.fnwFDA * { font-size: 1.25rem; }
+.fnwFDA { height: 120px; }
