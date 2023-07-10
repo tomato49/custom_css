@@ -10,7 +10,8 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; v
 
 /* 表示数制限 */
 .MuiList-root>div>div>div>div:nth-last-of-type(-n+1) {
-        visibility: visible;
+    visibility: visible;
+    top: 150px !important;
     animation:
         fadeIn  2s ease 0s,
         fadeOut 2s ease 8s forwards;
@@ -18,19 +19,19 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; v
 @keyframes fadeIn {
     from {
         opacity: 0;
-        transform: translateX(150px);
     }
     to {
         opacity: 1;
-        transform: translateX(0);
     }
 }
 @keyframes fadeOut {
     from {
         opacity: 1;
+        transform: translateY(0);
     }
     to {
         opacity: 0;
+        transform: translateY(-50px);
     }
 }
 
