@@ -14,18 +14,18 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 
 /* 以下の要素を非表示 */
 /* ヘッダー */
-.kLzvEC,
+.jfzGRs,
 /* 音量 */
-.bKYxBh,
+.ftGuWJ,
 /* カットイン音表示 */
 .MuiSnackbar-root,
 /* 拡大縮小 */
-.cxXvgu,
+.fhmotf,
 /* ペンのアイコン */
-.djHmFa,
+.gRnDQB,
 /* メッセージウィンドウ */
 .MuiPaper-rounded,
 /* キャラステータス */
-.sc-dZeWys {
+.ixtgWZ {
     display: none !important;
 }
