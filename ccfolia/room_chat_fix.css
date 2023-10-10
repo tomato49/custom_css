@@ -9,7 +9,7 @@ author: 🍅
 body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; visibility: hidden; }
 
 /* 表示数制限 */
-.MuiList-root>div>div>div>div:nth-last-of-type(-n+1) {
+.MuiList-root>div>div>div>div:nth-last-of-type(-n+1) > * {
     visibility: visible;
     top: 150px !important;
     animation:
