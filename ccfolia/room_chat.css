@@ -107,7 +107,7 @@ p.MuiTypography-root {
 
 /* 下からの位置調整 */
 .MuiList-root {
-    padding-bottom: 80px;
+    padding-bottom: var(--chat-div-padding-bottom);
 }
 
 /* 背景適応したpadding分フォームとの重なりを調整 */
