@@ -14,21 +14,21 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 
 /* 以下の要素を非表示 */
 /* fix */
-/* ダイス */
-.XLIUc,
+/* 新ダイス */
+.bxrkqB,
 /* ヘッダー */
-.jfzGRs,
+.eXZTDr,
 /* 音量 */
-.ftGuWJ,
+.enqrsI,
 /* カットイン音表示 */
 .MuiSnackbar-root,
 /* 拡大縮小 */
-.fhmotf,
+.bEqVnC,
 /* ペンのアイコン */
-.gRnDQB,
+.hqcSW,
 /* メッセージウィンドウ */
 .MuiPaper-rounded,
 /* キャラステータス */
-.ixtgWZ {
+.cyHrhV {
     display: none !important;
 }
