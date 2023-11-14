@@ -39,7 +39,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; v
 } */
 /* ダイスをウィンドウ下部に表示 */
 /* fix */
-.cMNEPM { bottom: 0; }
+.cMNEPM { bottom: 0 !important; }
 
 /* ダイスのサイズ変更 */
 /* fix */
