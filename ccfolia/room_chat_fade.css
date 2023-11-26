@@ -8,12 +8,21 @@ author: 🍅
 
 body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; visibility: hidden; }
 
-.MuiList-root>div>div>div>div {
+.css-1xar93x {
     visibility: visible;
     animation:
         fadeIn  2s ease 0s,
-        fadeOut 2s ease 8s forwards;
+        fadeOut 2s ease 12s forwards;
 }
+
+.css-15eea9h{
+    padding: 0 !important;
+}
+    
+.MuiList-root>div>div>div {
+    width: fit-content;
+}
+        
 @keyframes fadeIn {
     from {
         opacity: 0;

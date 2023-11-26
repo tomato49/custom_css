@@ -9,13 +9,22 @@ author: 🍅
 body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; visibility: hidden; }
 
 /* 表示数制限 */
-.MuiList-root>div>div>div>div:nth-last-of-type(-n+1) > * {
+.css-1xar93x:nth-last-of-type(-n+1) > * {
     visibility: visible;
     top: 0px !important;
     animation:
         fadeIn  2s ease 0s,
-        fadeOut 2s ease 8s forwards;
+        fadeOut 2s ease 12s forwards;
 }
+
+.css-15eea9h{
+    padding: 0 !important;
+}
+    
+.MuiList-root>div>div>div {
+    width: fit-content;
+}
+        
 @keyframes fadeIn {
     from {
         opacity: 0;
