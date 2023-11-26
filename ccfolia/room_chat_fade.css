@@ -10,6 +10,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; v
 
 .css-1xar93x {
     visibility: visible;
+    z-index: 1300;
     animation:
         fadeIn  2s ease 0s,
         fadeOut 2s ease 12s forwards;
