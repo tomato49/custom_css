@@ -64,7 +64,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; v
     --image-radius: 0%;
     --width: 500px;
     --line-clamp: 30;
-    --chat-div-padding-bottom: 4rem;
+    --chat-div-margin-bottom: 4rem;
 }
 
 
@@ -116,13 +116,13 @@ p.MuiTypography-root {
 
 /* 下からの位置調整 */
 .MuiList-root {
-    padding-bottom: var(--chat-div-padding-bottom);
+    margin-bottom: var(--chat-div-margin-bottom);
 }
 
-/* 背景適応したpadding分フォームとの重なりを調整 */
+/* 背景適応したmargin分フォームとの重なりを調整 */
 .MuiList-root>div>div {
-    scroll-padding-bottom: var(--chat-div-padding-bottom);
-    padding-bottom: var(--chat-div-padding-bottom);
+    scroll-margin-bottom: var(--chat-div-margin-bottom);
+    margin-bottom: var(--chat-div-margin-bottom);
 }
 
 .MuiListItemAvatar-root {
