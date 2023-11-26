@@ -48,9 +48,9 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; v
     height: 50px;
 }
 
-/* スクロールバーの削除 */
-.MuiPaper-elevation1:nth-child(2) > div:nth-child(3)::-webkit-scrollbar {
-    display: none !important;
+/* スクロールバーを消す */
+.bUvbPO::-webkit-scrollbar {
+    display: none;
 }
 
 /* キャラを非表示 */
