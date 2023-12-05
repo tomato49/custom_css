@@ -2,7 +2,7 @@
 メッセージウィンドウとダイスを表示
 キャラ絵とアイコンは非表示
 
-target: ccfolia v1.28.0
+target: ccfolia v1.28.9
 OBSのブラウザソースに以下のURLを入れてください。
 {ルームID}は各自、該当のルームのIDに置換すること。
 URL: https://ccfolia.com/rooms/{ルームID}
@@ -12,7 +12,7 @@ author: 🍅
 body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; visibility: hidden; }
 
 /* メッセージウィンドウの表示 */
-.MuiPaper-rounded {
+.libMKL {
     visibility: visible;
     /* 背景を透過 */
     /* background-color: transparent; */
@@ -34,15 +34,15 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; v
 }
 
 /* ダイスを消す */
-/* .cMNEPM {
+/* .gkRMkm {
     display: none;
 } */
 /* ダイスをウィンドウ下部に表示 */
 /* fix */
-.cMNEPM { bottom: 0 !important; }
+.gkRMkm { bottom: 0 !important; }
 
 /* スクロールバーを消す */
-.bUvbPO::-webkit-scrollbar {
+.gCrBDr::-webkit-scrollbar {
     display: none;
 }
 
@@ -54,7 +54,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; v
 }
 
 /* キャラを表示、サイズ変更 */
-.MuiPaper-rounded > img {
+.libMKL > img {
     visibility: visible;
     width: 120px;
     height: 120px;
@@ -66,7 +66,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; v
     object-position: top;
 }
 
-.MuiPaper-rounded > img[src=""] {
+.libMKL > img[src=""] {
     visibility: hidden;
 }
 
@@ -75,5 +75,5 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; v
 .MuiToolbar-dense * { font-size: 1.125rem; }
 /* 発言内容 */
 /* fix */
-.bUvbPO * { font-size: 1.25rem; }
-.bUvbPO { height: 6rem !important; }
+.gCrBDr * { font-size: 1.25rem; }
+.gCrBDr { height: 6rem !important; }
