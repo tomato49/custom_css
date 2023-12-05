@@ -28,6 +28,8 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 .cfRzzB,
 /* メッセージウィンドウ */
 .libMKL,
+/* 動画ウィンドウ */
+.MuiDialog-root,
 /* キャラステータス */
 .kTIUpi {
     display: none !important;
