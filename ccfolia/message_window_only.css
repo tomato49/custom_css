@@ -17,11 +17,11 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; v
 }
 
 /* メッセージウィンドウ背景 */
-.MuiPaper-root {
+.MuiPaper-root, .xeJGP{
     /* 背景色 */
     /* 削除 */
-    /* background: none !important; */
-    background-color: rgba(0, 0, 0, 0.25) !important;
+    background: none !important;
+    background-color: rgba(0, 0, 0, 0) !important;
     /* メッセージウィンドウの影を消す */
     box-shadow: none !important;
 }
@@ -57,9 +57,20 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; v
 }
 
 /* フォントサイズ変更 */
-/* 発言者 */
-.MuiToolbar-dense * { font-size: 1.125rem; }
-/* 発言内容 */
 /* fix */
-.gCrBDr * { font-size: 1.25rem; }
+/* 発言者 */
+.MuiToolbar-dense *, .gCrBDr * {
+    font-size: 1.25rem;
+    text-shadow:
+        0 0 0.1em black,
+        0 0 0.1em black,
+        0 0 0.1em black,
+        0 0 0.1em black,
+        0 0 0.1em black,
+        0 0 0.1em black,
+        0 0 0.1em black,
+        0 0 0.1em black,
+        0 0 0.2em black;
+}
+/* 発言内容 */
 .gCrBDr { height: 6rem !important; }
