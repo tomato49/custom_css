@@ -9,7 +9,7 @@ author: 🍅
 body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; visibility: hidden; }
 
 /* 表示数制限 */
-.css-1xar93x:nth-last-of-type(-n+1) > * {
+.cWonQD>div>div>div:nth-last-of-type(-n+2) {
     visibility: visible;
     top: 0px !important;
     z-index: 1300;
@@ -21,11 +21,11 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; v
 .css-15eea9h{
     padding: 0 !important;
 }
-    
+
 .MuiList-root>div>div>div {
     width: fit-content;
 }
-        
+
 @keyframes fadeIn {
     from {
         opacity: 0;
