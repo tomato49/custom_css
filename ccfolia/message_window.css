@@ -12,16 +12,16 @@ author: 🍅
 body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; visibility: hidden; }
 
 /* メッセージウィンドウの表示 */
-.libMKL {
+.blWBdO {
     visibility: visible;
 }
 
 /* メッセージウィンドウ背景 */
-.MuiPaper-root {
+.MuiPaper-root, .css-175dgcc{
     /* 背景色 */
     /* 削除 */
-    /* background: none !important; */
-    background-color: rgba(0, 0, 0, 0.25) !important;
+    background: none !important;
+    background-color: rgba(0, 0, 0, 0) !important;
     /* メッセージウィンドウの影を消す */
     box-shadow: none !important;
 }
@@ -32,46 +32,55 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; v
 }
 
 /* ダイスを消す */
-/* .gkRMkm {
+/* .jaSWcb {
     display: none;
 } */
 /* ダイスをウィンドウ下部に表示 */
 /* fix */
-.gkRMkm { bottom: 0 !important; }
+.jaSWcb { bottom: 0 !important; }
 
 /* スクロールバーを消す */
-.gCrBDr::-webkit-scrollbar {
+.css-6tsndk::-webkit-scrollbar {
     display: none;
 }
 
 /* ダイスのサイズ変更 */
 /* fix */
-.sc-kLwpbo {
+.sc-kBqlQb {
     width: 50px;
     height: 50px;
 }
 
 /* キャラを表示、サイズ変更 */
-.libMKL > img {
+.fqzXQu {
     visibility: visible;
     width: 120px;
     height: 120px;
     margin-bottom: 5px;
-    border-radius: 50%;
-    background: rgba(256, 256, 256, 0.5);
-    border: solid 6px rgba(0, 0, 0, 0.8);
     object-fit: cover;
     object-position: top;
+    filter: drop-shadow(0 0 0.75rem white);
 }
 
-.libMKL > img[src=""] {
+.fqzXQu[src=""] {
     visibility: hidden;
 }
 
 /* フォントサイズ変更 */
-/* 発言者 */
-.MuiToolbar-dense * { font-size: 1.125rem; }
-/* 発言内容 */
 /* fix */
-.gCrBDr * { font-size: 1.25rem; }
-.gCrBDr { height: 6rem !important; }
+/* 発言者 */
+.MuiToolbar-dense *, .css-6tsndk * {
+    font-size: 1.25rem;
+    text-shadow:
+        0 0 0.1em black,
+        0 0 0.1em black,
+        0 0 0.1em black,
+        0 0 0.1em black,
+        0 0 0.1em black,
+        0 0 0.1em black,
+        0 0 0.1em black,
+        0 0 0.1em black,
+        0 0 0.2em black;
+}
+/* 発言内容 */
+.css-6tsndk { height: 6rem !important; }
