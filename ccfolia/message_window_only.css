@@ -12,7 +12,7 @@ author: 🍅
 body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; visibility: hidden; }
 
 /* メッセージウィンドウの表示 */
-.blWBdO {
+.fAikJW {
     visibility: visible;
 }
 
@@ -32,34 +32,34 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; v
 }
 
 /* ダイスを消す */
-/* .jaSWcb {
+/* .hSjflw {
     display: none;
 } */
 /* ダイスをウィンドウ下部に表示 */
 /* fix */
-.jaSWcb { bottom: 0 !important; }
+.hSjflw { bottom: 0 !important; }
 
 /* ダイスのサイズ変更 */
 /* fix */
-.sc-kBqlQb {
+.sc-gJjChS {
     width: 50px;
     height: 50px;
 }
 
 /* スクロールバーを消す */
-.hOQYmL::-webkit-scrollbar {
+.iKUBvp::-webkit-scrollbar {
     display: none;
 }
 
 /* キャラを非表示 */
-.fqzXQu {
+.eSWOmr {
     visibility: hidden;
 }
 
 /* フォントサイズ変更 */
 /* fix */
 /* 発言者 */
-.MuiToolbar-dense *, .hOQYmL * {
+.MuiToolbar-dense *, .iKUBvp * {
     font-size: 1.25rem;
     text-shadow:
         0 0 0.1em black,
@@ -73,4 +73,4 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; v
         0 0 0.2em black;
 }
 /* 発言内容 */
-.hOQYmL { height: 6rem !important; }
+.iKUBvp { height: 6rem !important; }
