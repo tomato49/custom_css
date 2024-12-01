@@ -32,12 +32,12 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; v
 }
 
 /* ダイスを消す */
-/* .dnSOOJ {
+/* .kXQOsh {
     display: none;
 } */
 /* ダイスをウィンドウ下部に表示 */
 /* fix */
-.dnSOOJ { bottom: 0 !important; }
+.kXQOsh { bottom: 0 !important; }
 
 /* スクロールバーを消す */
 .Qakxs::-webkit-scrollbar {
