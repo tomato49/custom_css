@@ -2,7 +2,7 @@
 メッセージウィンドウとダイスを表示
 キャラ絵とアイコンは非表示
 
-target: ccfolia v1.31.2
+target: ccfolia v1.32.4
 OBSのブラウザソースに以下のURLを入れてください。
 {ルームID}は各自、該当のルームのIDに置換すること。
 URL: https://ccfolia.com/rooms/{ルームID}
@@ -40,7 +40,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; v
 .kXQOsh { bottom: 0 !important; }
 
 /* スクロールバーを消す */
-.Qakxs::-webkit-scrollbar {
+.hQLGKR::-webkit-scrollbar {
     display: none;
 }
 
@@ -52,7 +52,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; v
 }
 
 /* キャラを表示、サイズ変更 */
-.jVewpu {
+.eifEaS {
     visibility: visible;
     width: 120px;
     height: 120px;
@@ -62,14 +62,14 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; v
     filter: drop-shadow(0 0 0.75rem white);
 }
 
-.jVewpu[src=""] {
+.eifEaS[src=""] {
     visibility: hidden;
 }
 
 /* フォントサイズ変更 */
 /* fix */
 /* 発言者 */
-.MuiToolbar-dense *, .Qakxs * {
+.MuiToolbar-dense *, .hQLGKR * {
     font-size: 1.25rem;
     text-shadow:
         0 0 0.1em black,
@@ -83,4 +83,4 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; v
         0 0 0.2em black;
 }
 /* 発言内容 */
-.Qakxs { height: 6rem !important; }
+.hQLGKR { height: 6rem !important; }
