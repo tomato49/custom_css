@@ -32,22 +32,22 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; v
 }
 
 /* ダイスを消す */
-/* .dgmQwG {
+/* .cddHNt {
     display: none;
 } */
 /* ダイスをウィンドウ下部に表示 */
 /* fix🍅 */
-.dgmQwG { bottom: 0 !important; }
+.cddHNt { bottom: 0 !important; }
 
 /* ダイスのサイズ変更 */
 /* fix🍅 */
-.sc-eTTSxL {
+.sc-cCwOyq {
     width: 50px;
     height: 50px;
 }
 
 /* スクロールバーを消す */
-.jlKRNh::-webkit-scrollbar {
+.hqSFei::-webkit-scrollbar {
     display: none;
 }
 
@@ -59,7 +59,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; v
 
 /* フォントサイズ変更 */
 /* 発言者 */
-.MuiToolbar-dense *, .jlKRNh * {
+.MuiToolbar-dense *, .hqSFei * {
     font-size: 1.25rem;
     text-shadow:
         0 0 0.1em black,
@@ -74,4 +74,4 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; v
 }
 /* 発言内容 */
 /* fix🍅 */
-.jlKRNh { height: 6rem !important; }
+.hqSFei { height: 6rem !important; }
