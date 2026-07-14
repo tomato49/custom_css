@@ -47,13 +47,13 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; v
 }
 
 /* スクロールバーを消す */
-.iQKgoc::-webkit-scrollbar {
+.eONCIF::-webkit-scrollbar {
     display: none;
 }
 
 /* キャラを非表示 */
 /* fix🍅 */
-.gCxpXs {
+.ipAmng {
     visibility: hidden;
 }
 
