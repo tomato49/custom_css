@@ -59,7 +59,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; v
 
 /* フォントサイズ変更 */
 /* 発言者 */
-.MuiToolbar-dense *, .iQKgoc * {
+.MuiToolbar-dense *, .bKeQMR * {
     font-size: 1.25rem;
     text-shadow:
         0 0 0.1em black,
@@ -74,4 +74,4 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; v
 }
 /* 発言内容 */
 /* fix🍅 */
-.iQKgoc { height: 6rem !important; }
+.eONCIF { height: 6rem !important; }
