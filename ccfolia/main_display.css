@@ -32,6 +32,8 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 .css-175dgcc,
 /* 動画ウィンドウ */
 .MuiDialog-root,
+/* 選択状態アイコン */
+.JzKox,
 /* キャラステータス */
 .kxIUFo {
     display: none !important;
